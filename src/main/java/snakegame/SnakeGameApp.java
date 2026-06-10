@@ -1,10 +1,10 @@
-package sa.edu.uqu.snakegame;
+package snakegame;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import sa.edu.uqu.snakegame.view.controller.SceneController;
+import snakegame.view.controller.SceneController;
 
 public class SnakeGameApp extends Application {
 

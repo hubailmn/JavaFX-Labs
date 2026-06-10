@@ -1,4 +1,4 @@
-package sa.edu.uqu.snakegame.data;
+package snakegame.data;
 
 public enum Direction {
     UP, DOWN, RIGHT, LEFT

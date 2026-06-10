@@ -1,6 +1,6 @@
-package sa.edu.uqu.snakegame;
+package snakegame;
 
-import sa.edu.uqu.snakegame.data.GameData;
+import snakegame.data.GameData;
 
 public class SnakeGameLauncher {
 

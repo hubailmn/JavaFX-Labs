@@ -1,4 +1,4 @@
-package sa.edu.uqu.snakegame.view.controller;
+package snakegame.view.controller;
 
 
 import javafx.animation.FadeTransition;
@@ -6,9 +6,9 @@ import javafx.scene.Node;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
-import sa.edu.uqu.snakegame.view.GameView;
-import sa.edu.uqu.snakegame.view.MainView;
-import sa.edu.uqu.snakegame.view.StatisticView;
+import snakegame.view.GameView;
+import snakegame.view.MainView;
+import snakegame.view.StatisticView;
 
 public class SceneController {
     private final StackPane root;

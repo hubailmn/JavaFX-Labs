@@ -1,13 +1,13 @@
-package sa.edu.uqu.snakegame.view;
+package snakegame.view;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
-import sa.edu.uqu.snakegame.data.GameData;
-import sa.edu.uqu.snakegame.data.StatisticModal;
-import sa.edu.uqu.snakegame.view.controller.SceneController;
+import snakegame.data.GameData;
+import snakegame.data.StatisticModal;
+import snakegame.view.controller.SceneController;
 
 import java.util.Comparator;
 import java.util.List;

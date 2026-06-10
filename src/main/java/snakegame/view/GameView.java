@@ -1,4 +1,4 @@
-package sa.edu.uqu.snakegame.view;
+package snakegame.view;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -9,10 +9,10 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
-import sa.edu.uqu.snakegame.data.Direction;
-import sa.edu.uqu.snakegame.data.GameData;
-import sa.edu.uqu.snakegame.data.StatisticModal;
-import sa.edu.uqu.snakegame.view.controller.SceneController;
+import snakegame.data.Direction;
+import snakegame.data.GameData;
+import snakegame.data.StatisticModal;
+import snakegame.view.controller.SceneController;
 
 import java.util.Random;
 

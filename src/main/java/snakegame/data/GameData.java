@@ -1,4 +1,4 @@
-package sa.edu.uqu.snakegame.data;
+package snakegame.data;
 
 import java.io.*;
 import java.util.ArrayList;
