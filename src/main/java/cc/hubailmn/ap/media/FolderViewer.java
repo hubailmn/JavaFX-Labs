@@ -28,6 +28,10 @@ public class FolderViewer extends Application {
     private MediaPlayer mediaPlayer;
     private StackPane root = new StackPane();
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage stage) {
         DirectoryChooser chooser = new DirectoryChooser();
@@ -156,9 +160,5 @@ public class FolderViewer extends Application {
         } catch (Exception e) {
             System.err.println("Delete failed: " + e.getMessage());
         }
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }

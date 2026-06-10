@@ -21,6 +21,10 @@ public class SmartLampApp extends Application {
     private Button dimButton;
     private Button brightenButton;
 
+    public static void runer(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) {
         Rectangle rectangle = new Rectangle(300, 250);
@@ -86,9 +90,5 @@ public class SmartLampApp extends Application {
         primaryStage.setScene(scene);
 
         primaryStage.show();
-    }
-
-    public static void runer(String[] args) {
-        launch(args);
     }
 }

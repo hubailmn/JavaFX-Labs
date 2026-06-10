@@ -15,6 +15,10 @@ import java.util.List;
 
 public class StudentRegistrationForm extends Application {
 
+    public static void run() {
+        launch();
+    }
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("Lab 6 - Student Registration");
@@ -124,9 +128,5 @@ public class StudentRegistrationForm extends Application {
         Scene scene = new Scene(root, 450, 550);
         stage.setScene(scene);
         stage.show();
-    }
-
-    public static void run() {
-        launch();
     }
 }

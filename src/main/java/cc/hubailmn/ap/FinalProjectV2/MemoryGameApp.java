@@ -20,14 +20,14 @@ import java.util.Random;
 
 public class MemoryGameApp extends Application {
 
-    public enum Direction {
-        UP, DOWN, RIGHT, LEFT
-    }
-
     private Direction direction;
     private Timeline timer;
     private Random rand = new Random();
     private int score = 0;
+
+    public static void main(String[] arg0) {
+        launch(arg0);
+    }
 
     @Override
     public void start(Stage arg0) throws Exception {
@@ -173,8 +173,8 @@ public class MemoryGameApp extends Application {
         arg0.show();
     }
 
-    public static void main(String[] arg0) {
-        launch(arg0);
+    public enum Direction {
+        UP, DOWN, RIGHT, LEFT
     }
 
 }

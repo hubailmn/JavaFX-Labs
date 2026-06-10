@@ -11,6 +11,10 @@ import javafx.stage.Stage;
 
 public class LoginForm extends Application {
 
+    public static void main(String[] args) {
+        launch();
+    }
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("Login Form");
@@ -30,10 +34,5 @@ public class LoginForm extends Application {
         Scene scene = new Scene(root, 300, 200);
         stage.setScene(scene);
         stage.show();
-    }
-
-
-    public static void main(String[] args) {
-        launch();
     }
 }

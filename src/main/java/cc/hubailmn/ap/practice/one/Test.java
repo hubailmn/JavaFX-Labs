@@ -9,6 +9,10 @@ import javafx.stage.Stage;
 
 public class Test extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage stage) {
         VBox root = new VBox();
@@ -20,8 +24,6 @@ public class Test extends Application {
         triangleMesh.getPoints().addAll(0, 0, 0, 10, 10, 10);
 
 
-
-
         Scene scene = new Scene(
                 new VBox(), 450, 400
         );
@@ -29,9 +31,5 @@ public class Test extends Application {
         stage.setScene(scene);
         stage.setTitle("Test");
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }

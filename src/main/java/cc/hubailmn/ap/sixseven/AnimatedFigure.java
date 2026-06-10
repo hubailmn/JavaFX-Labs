@@ -15,6 +15,10 @@ public class AnimatedFigure extends Application {
 
     private double time = 0;
 
+    public static void main(String[] args) {
+        launch();
+    }
+
     @Override
     public void start(Stage stage) {
 
@@ -82,9 +86,5 @@ public class AnimatedFigure extends Application {
         stage.setTitle("Optimized JavaFX Animation");
         stage.setScene(scene);
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch();
     }
 }
