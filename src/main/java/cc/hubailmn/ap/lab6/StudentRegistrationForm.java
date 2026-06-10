@@ -27,14 +27,12 @@ public class StudentRegistrationForm extends Application {
         HBox nameHbox = new HBox(10, nameLabel, nameInput);
         nameHbox.setAlignment(Pos.CENTER_LEFT);
 
-        // ID Row
         Label idLabel = new Label("ID:");
         idLabel.setPrefWidth(100);
         TextField idInput = new TextField();
         HBox.setHgrow(idInput, Priority.ALWAYS);
         HBox idHbox = new HBox(10, idLabel, idInput);
 
-        // Student Level Row
         Label studentLevelLabel = new Label("Student Level:");
         studentLevelLabel.setPrefWidth(100);
 
@@ -69,11 +67,19 @@ public class StudentRegistrationForm extends Application {
             String name = nameInput.getText();
             String id = idInput.getText();
 
+            if (name.isBlank() || id.isBlank()) {
+                outputArea.setText("Please fill in all fields.");
+                return;
+            }
+
             String studentLevelSelected = "";
             if (senior.isSelected()) {
                 studentLevelSelected = "Senior";
             } else if (freshMan.isSelected()) {
                 studentLevelSelected = "Freshman";
+            } else {
+                outputArea.setText("Please select a student level.");
+                return;
             }
 
             List<String> coursesSelected = new ArrayList<>();

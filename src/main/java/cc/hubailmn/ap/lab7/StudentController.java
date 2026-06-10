@@ -19,6 +19,7 @@ public class StudentController {
             view.setOutputArea("Please fill in all fields.");
             return;
         }
+
         long parsedId;
         try {
             parsedId = Long.parseLong(id);
